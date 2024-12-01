@@ -10,15 +10,13 @@ const exampleInput = `3   4
 3   9
 3   3`;
 
-describe("Part 1", () => {
-  it("should return value from the example", () => {
+describe("Day 1", () => {
+  it("Part 1", () => {
     const res = part1(exampleInput);
     expect(res).toBe(11);
   });
-});
 
-describe("Part 2", () => {
-  it("should return value from the example", () => {
+  it("Part 2", () => {
     const res = part2(exampleInput);
     expect(res).toBe(31);
   });
