@@ -1,7 +1,7 @@
-import {expect} from "@std/expect";
-import {describe, it} from "@std/testing/bdd";
-import {part1} from "./part1.ts";
-import {part2} from "./part2.ts";
+import { expect } from "@std/expect";
+import { describe, it } from "@std/testing/bdd";
+import { part1 } from "./part1.ts";
+import { part2 } from "./part2.ts";
 
 const exampleInput = `3   4
 4   3

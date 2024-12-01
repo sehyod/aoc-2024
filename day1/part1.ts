@@ -1,4 +1,4 @@
-import {BinaryHeap} from "@std/data-structures";
+import { BinaryHeap } from "@std/data-structures";
 
 export function part1(input: string) {
   const left = new BinaryHeap<number>();
