@@ -1,6 +1,6 @@
 import {BinaryHeap} from "@std/data-structures";
 
-function part1(input: string) {
+export function part1(input: string) {
   const left = new BinaryHeap<number>();
   const right = new BinaryHeap<number>();
 

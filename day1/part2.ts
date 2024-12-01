@@ -1,4 +1,4 @@
-function part2(input: string) {
+export function part2(input: string) {
   const left: Array<number> = [];
   const right: Record<number, number> = {};
 
@@ -25,4 +25,6 @@ async function main() {
   const input = await Deno.readTextFile("./input");
   console.log(part2(input));
 }
-if (import.meta.main) await main();
+if (import.meta.main) {
+  await main();
+}
