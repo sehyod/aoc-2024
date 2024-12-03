@@ -15,4 +15,9 @@ describe("Day 2", () => {
     const res = part1(exampleInput);
     expect(res).toBe(2);
   });
+
+  it("Part 2", () => {
+    const res = part2(exampleInput);
+    expect(res).toBe(4);
+  });
 });
