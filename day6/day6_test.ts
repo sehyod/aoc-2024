@@ -21,7 +21,8 @@ describe("Day 6", () => {
   });
 
   it("Part 2", () => {
-    const res = part2(exampleInput);
+    const progress = () => ({ next: () => {} });
+    const res = part2(exampleInput, progress);
     expect(res).toBe(6);
   });
 });
