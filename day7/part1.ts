@@ -1,5 +1,5 @@
 export function part1(input: string) {
-  input
+  return input
     .split("\n")
     .filter(Boolean)
     .map((line) => line.split(": "))
