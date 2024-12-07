@@ -1,5 +1,5 @@
 export function part1(input: string) {
-  const t = input
+  input
     .split("\n")
     .filter(Boolean)
     .map((line) => line.split(": "))
@@ -25,8 +25,7 @@ export function part1(input: string) {
         }
       }
       return false;
-    });
-  return t.reduce((sum, curr) => sum + curr[0], 0);
+    }).reduce((sum, curr) => sum + curr[0], 0);
 }
 
 async function main() {
