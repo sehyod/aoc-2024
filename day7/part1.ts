@@ -25,7 +25,8 @@ export function part1(input: string) {
         }
       }
       return false;
-    }).reduce((sum, curr) => sum + curr[0], 0);
+    })
+    .reduce((sum, curr) => sum + curr[0], 0);
 }
 
 async function main() {
