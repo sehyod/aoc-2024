@@ -27,6 +27,6 @@ describe("Day 13", () => {
 
   it("Part 2", () => {
     const res = part2(exampleInput);
-    expect(res).toBe(1206);
+    expect(res).toBe(875318608908);
   });
 });
