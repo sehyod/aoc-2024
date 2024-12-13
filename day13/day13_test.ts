@@ -1,6 +1,8 @@
 import { expect } from "@std/expect";
 import { describe, it } from "@std/testing/bdd";
 import { part1 } from "./part1.ts";
+import { part2 } from "./part2.ts";
+
 const exampleInput = `Button A: X+94, Y+34
 Button B: X+22, Y+67
 Prize: X=8400, Y=5400
@@ -22,4 +24,9 @@ describe("Day 13", () => {
     const res = part1(exampleInput);
     expect(res).toBe(480);
   });
+
+  it("Part 2", () => {
+    const res = part2(exampleInput);
+    expect(res).toBe(1206);
   });
+});
