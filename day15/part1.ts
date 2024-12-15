@@ -16,10 +16,8 @@ export function part1(input: string) {
     const row: string[] = [];
     [...line].forEach((c, j) => {
       if (c === "@") {
-        pos = [i, 2 * j];
-        row.push("..");
-      } else if (c === "O") {
-        row.push("[]");
+        pos = [i, j];
+        row.push(".");
       } else {
         row.push(c);
       }
