@@ -1,6 +1,7 @@
 import { expect } from "@std/expect";
 import { describe, it } from "@std/testing/bdd";
 import { part1 } from "./part1.ts";
+import { part2 } from "./part2.ts";
 
 const smallExampleInput = `########
 #..O.O.#
@@ -43,5 +44,23 @@ describe("Day 15", () => {
   it("Part 1 - Large example", () => {
     const res = part1(largeExampleInput);
     expect(res).toBe(10092);
+  });
+
+  it("Part 2 - Small example", () => {
+    const smallExampleInput = `#######
+#...#.#
+#.....#
+#..OO@#
+#..O..#
+#.....#
+#######
+
+<vv<<^^<<^^`;
+    const res = part2(smallExampleInput);
+    expect(res).toBe(618);
+  });
+  it("Part 2 - Large example", () => {
+    const res = part2(largeExampleInput);
+    expect(res).toBe(9021);
   });
 });
