@@ -1,6 +1,7 @@
 {
   "version": "4",
   "specifiers": {
+    "jsr:@elf/combinatorics@^1.0.14": "1.0.14",
     "jsr:@ryweal/progress@^1.0.1": "1.0.1",
     "jsr:@std/assert@^1.0.8": "1.0.8",
     "jsr:@std/async@^1.0.8": "1.0.9",
@@ -13,6 +14,9 @@
     "npm:@types/node@*": "22.5.4"
   },
   "jsr": {
+    "@elf/combinatorics@1.0.14": {
+      "integrity": "5539b5f9873596c6201de386079548af08697a3abc735d59f187ff8b902aa137"
+    },
     "@ryweal/progress@1.0.1": {
       "integrity": "7aeaaa9aab5c9d3ad348942dcb23616a062b08afa19b0a5f100937ecd0bab613"
     },
@@ -72,6 +76,7 @@
   },
   "workspace": {
     "dependencies": [
+      "jsr:@elf/combinatorics@^1.0.14",
       "jsr:@ryweal/progress@^1.0.1",
       "jsr:@std/data-structures@^1.0.4",
       "jsr:@std/expect@^1.0.8",
