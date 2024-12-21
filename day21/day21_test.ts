@@ -14,4 +14,9 @@ describe("Day 21", () => {
     const res = part1(exampleInput);
     expect(res).toBe(126384);
   });
+
+  it("Part 2", () => {
+    const res = part2(exampleInput);
+    expect(res).toBe(154115708116294);
+  });
 });
