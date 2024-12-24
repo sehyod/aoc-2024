@@ -50,9 +50,9 @@ hwm AND bqk -> z03
 tgd XOR rvg -> z12
 tnw OR pbm -> gnj`;
 
-describe("Day 23", () => {
+describe("Day 24", () => {
   it("Part 1", () => {
     const res = part1(exampleInput);
-    expect(res).toBe(7);
+    expect(res).toBe(2024);
   });
 });
